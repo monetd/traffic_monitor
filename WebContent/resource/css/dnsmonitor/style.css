@@ -1,0 +1,119 @@
+/* 
+ * ID 출력
+ */
+.login_sec {
+	text-align: right;
+	padding-left: 10px;
+}
+
+.login_sec b {
+	font-size: 13px;
+	color: green;
+}
+
+/*
+  *	로그아웃 버튼
+  */
+#logoutButton {
+	padding-left: 10px;
+}
+
+.title_sec {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.toggle_sec {
+	width: 100%;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.speaker {
+	width: 30px;
+	height: 30px;
+}
+
+.button_sec {
+	float: right;
+	padding-bottom: 5px;
+	padding-right: 2%;
+}
+
+.button {
+	border-radius: 4px;
+	/* background-color: #f4511e; */
+	background-color: #778899;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding: 5px;
+	width: 180px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -10px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 15px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.name_sec {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Nanum Gothic Coding", sans-serif display : inline;
+	padding-left: 5%;
+	padding-bottom: 5px;
+}
+
+.traffic_sec {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Nanum Gothic Coding", sans-serif;
+	padding-bottom: 10px;
+}
+
+.container_sec {
+	margin: 0 auto;
+}
+
+/*
+  *	로그아웃 버튼
+  */
+#logoutBtn {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#linkBtn {
+	float: left;
+	padding-left: 10px;
+}

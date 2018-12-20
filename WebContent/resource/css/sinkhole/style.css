@@ -1,0 +1,106 @@
+/*
+ *	Panel 스타일링
+ */
+.my-panel .x-panel-header {
+	height: 32px; 
+}
+.my-panel .x-panel-header-text {
+	font-size:15px;
+}
+.my-panel .x-panel-header-body {
+	height: 20px;
+}
+
+/*
+ *	트래픽 출력 div 스타일링
+ */
+.trafficBarCls {
+	text-align: center;
+	font-size: 200%;
+}
+
+/*
+ * 제목 DIV
+ */
+.title_sec {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align:  center;
+}
+
+/*
+ * 토글 DIV
+ */
+.toggle_sec {
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 10px;
+	font-size: 130%;
+}
+
+/* 
+ * ID 출력
+ */
+ .login_sec {
+	text-align: right;
+	padding-left: 10px;
+ }
+
+ .login_sec b {
+	font-size: 13px;
+	color: green;
+ }
+ 
+ /*
+  *	로그아웃 버튼
+  */
+ #logoutBtn {
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ }
+ 
+ #linkBtn {
+ 	float: left;
+ 	padding-left: 10px;
+ }
+ 
+ 
+/*
+ *	버튼 출력 div 스타일링
+ */
+.buttonBarCls {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+	background: rgb(63,76,107); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/*
+ *	BPS 출력 span 스타일링
+ */
+.sinkbpsCls {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*
+ *	구분자(/) 출력 span 스타일링
+ */
+.delim {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*
+ *	PPS 출력 span 스타일링
+ */
+.sinkppsCls {
+	font-weight: bold;
+	font-size: 30px;
+}
